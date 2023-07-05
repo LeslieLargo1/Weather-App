@@ -62,15 +62,16 @@ export const fetchData = ()=>{
     }
     const entercity =document.getElementById('enterCity')
     const button = document.getElementById('search')
-    button.addEventListener('click',getInput )
-    // entercity.addEventListener('keyup', (e) => {
-    //     if(e.key === 13){
-    //         console.log(e.target.value);
-    //     }
-       
-    // })
 
-// add enter key press event listener
+    button.addEventListener('click',getInput )
+
+
+    entercity.addEventListener('keyup', (e) => {
+        if(e.key === 'Enter'){
+           getInput();
+        }
+       
+    })
 
 
 }

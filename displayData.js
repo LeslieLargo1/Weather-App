@@ -23,9 +23,11 @@ export const displayData =(weatherData)=>{
   const getcity = document.querySelector('.city')
   getcity.textContent=city
 
-  const description = weatherData.list['0'].weather['0'].description
-  const getdescription = document.querySelector('.description')
-  getdescription.textContent=description
+
+  const description = weatherData.list['0'].weather['0'].description;
+const getdescription = document.querySelector('.description');
+const capitalizedDescription = description.replace(/\b\w/g, (match) => match.toUpperCase());
+getdescription.textContent = capitalizedDescription;
   
 
  futureforecast(weatherData)
