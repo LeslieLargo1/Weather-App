@@ -11,7 +11,7 @@ body{
     background-image: url(https://images.unsplash.com/photo-1502790671504-542ad42d5189?);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow-x: scroll;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
 }
@@ -179,3 +179,71 @@ p{
 .day{
     font-weight: 600;
 }
+
+@media only screen and (max-width:750px ) {
+ 
+.container{
+    margin-top: 0;
+}
+ .lookUp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ .lookUp select {
+    width: 205px;
+    margin-bottom: 15px;
+    
+}
+
+#enterCity{
+    margin-bottom: 15px;
+    width: 205px;
+}
+
+.lookUp button {
+    height: 45px;
+    width: 45px;
+    margin-bottom: 10px;
+}
+
+img.weather-icon{
+    margin-left: -74px;
+}
+.details{
+    padding: 0;
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+h1.temp{
+    margin: 0px;
+    height: 50px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h2.city{
+    margin: 0px;
+}
+.upcomingDays{
+    width: 105px;
+    height: 215px;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.futureIcon {
+    width: 70px;
+}
+}
+ 
+
+
+   
