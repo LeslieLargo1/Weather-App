@@ -4,7 +4,7 @@
 ## Mission objectives
 Individualy create an app using an api in 4 days. 
 
-- Deployment strategy: `Github pages / Netlify`
+- Deployment strategy: `Github pages or Netlify`
 
 In this challenge you will use and consolidate your knowledge on:
 
