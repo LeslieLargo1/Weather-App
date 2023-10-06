@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
     background-image: url(https://images.unsplash.com/photo-1502790671504-542ad42d5189?);
     background-repeat: no-repeat;
@@ -16,24 +17,26 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.container{
+.container {
     width: 80%;
-    background:hsl(0deg 2% 9% / 50.2%);
+    background: hsl(0deg 2% 9% / 50.2%);
     margin: 40px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
-    height: 364px; /* Adjust the height according to your needs */
-   
+    height: 364px;
+    /* Adjust the height according to your needs */
+
 }
-.lookUp{
+
+.lookUp {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.lookUp input{ 
+.lookUp input {
     border: 0;
     outline: 0;
     background: #ebfffc;
@@ -47,7 +50,7 @@ body{
 
 }
 
-.lookUp select{ 
+.lookUp select {
     border: 0;
     outline: 0;
     background: #ebfffc;
@@ -60,33 +63,34 @@ body{
     font-size: 18px;
 
 }
-.lookUp button{
+
+.lookUp button {
     border: 0;
     outline: 0;
     background: #ebfffc;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  cursor: pointer;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
 }
 
-.lookUp button img{
+.lookUp button img {
     border: 0;
     outline: 0;
     background: #ebfffc;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
 
-.weather .top{
+.weather .top {
     display: flex;
-height: 65px;
-margin-top: 0px; 
+    height: 65px;
+    margin-top: 0px;
 }
 
-img.weather-icon{
-    
+img.weather-icon {
+
     width: 65px;
     margin-top: 0;
     display: flex;
@@ -95,28 +99,29 @@ img.weather-icon{
     justify-content: center;
 }
 
-.description{
-margin-top: 18px;
-margin-left: 115px;
-font-size: 25px;
-color: #ebfffc;
+.description {
+    margin-top: 18px;
+    margin-left: 115px;
+    font-size: 25px;
+    color: #ebfffc;
 }
 
-h1.temp{
-     font-size: 55px;
-     color:#ebfffc ;
-     font-weight: 100;
-     margin-right: 63px;
+h1.temp {
+    font-size: 55px;
+    color: #ebfffc;
+    font-weight: 100;
+    margin-right: 63px;
 }
 
 h2.city {
     font-size: 20px;
-    color:#ebfffc ;
+    color: #ebfffc;
     font-weight: 100;
     margin-right: 55px;
 
 }
-.details{
+
+.details {
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -125,34 +130,41 @@ h2.city {
     padding: 0px 130px;
 }
 
-.col1{
+.col1 {
     display: flex;
     align-items: center;
     text-align: left;
 
 }
 
-.wind-image{
-    width: 55px;
+#wind {
     margin-right: 10px;
+    padding: 20px;
+}
+
+#drop {
+    margin-right: 10px;
+    padding: 20px;
 }
 
 
-p{
+
+p {
     font-size: 20px;
-    color:#ebfffc ;
+    color: #ebfffc;
     font-weight: 100;
 }
 
 
-.humidity-image{
+.humidity-image {
     width: 60px;
     margin-right: 10px;
 }
+
 /* future days forecast */
 
 
-.upcomingDays{
+.upcomingDays {
     width: 12%;
     height: 300px;
     padding: 25px;
@@ -162,10 +174,10 @@ p{
     flex-direction: column;
     align-items: center;
     border-radius: 15px;
- 
+
 }
 
-.cards{
+.cards {
     margin: auto;
     display: flex;
     padding: 30px;
@@ -176,74 +188,77 @@ p{
     color: #ebfffc;
 
 }
-.day{
+
+.day {
     font-weight: 600;
 }
 
-@media only screen and (max-width:750px ) {
- 
-.container{
-    margin-top: 0;
-}
- .lookUp{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
- }
+@media only screen and (max-width:750px) {
 
- .lookUp select {
-    width: 205px;
-    margin-bottom: 15px;
-    
-}
+    .container {
+        margin-top: 0;
+    }
 
-#enterCity{
-    margin-bottom: 15px;
-    width: 205px;
-}
+    .lookUp {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
-.lookUp button {
-    height: 45px;
-    width: 45px;
-    margin-bottom: 10px;
-}
+    .lookUp select {
+        width: 205px;
+        margin-bottom: 15px;
 
-img.weather-icon{
-    margin-left: -74px;
-}
-.details{
-    padding: 0;
-}
-.weather{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-}
-h1.temp{
-    margin: 0px;
-    height: 50px;
-    font-size: 32px;
-    font-weight: 600;
-}
+    }
 
-h2.city{
-    margin: 0px;
-}
-.upcomingDays{
-    width: 105px;
-    height: 215px;
-    font-size: 11px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
-}
-.futureIcon {
-    width: 70px;
-}
-}
- 
+    #enterCity {
+        margin-bottom: 15px;
+        width: 205px;
+    }
 
+    .lookUp button {
+        height: 45px;
+        width: 45px;
+        margin-bottom: 10px;
+    }
 
-   
+    img.weather-icon {
+        margin-left: -74px;
+    }
+
+    .details {
+        padding: 0;
+    }
+
+    .weather {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    h1.temp {
+        margin: 0px;
+        height: 50px;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    h2.city {
+        margin: 0px;
+    }
+
+    .upcomingDays {
+        width: 105px;
+        height: 215px;
+        font-size: 11px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+
+    .futureIcon {
+        width: 70px;
+    }
+}

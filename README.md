@@ -1,13 +1,10 @@
 # Weather-App
-# The Weather Application
 
-- Repository: `weather-app`
-- Type of Challenge: `Consolidation`
-- Duration: `4 days`
-- Deployment strategy: `Github pages / Netlify`
-- Team challenge : `solo`
 
 ## Mission objectives
+Individualy create an app using an api in 4 days. 
+
+- Deployment strategy: `Github pages / Netlify`
 
 In this challenge you will use and consolidate your knowledge on:
 
@@ -22,26 +19,17 @@ Enough is enough, you decide to build a small web application for them so that y
 
 ### Specifications
 
-#### 🌱 Must haves
+#### 🌱 Features
 
-- In the home page the user can enter the city of his/her choice (think of the right HTML elements here)
-- On clicking the SUBMIT button or pressing ENTER the application will display the weather for the next 5 days
+- In the home page the user can enter the city of his/her choice.
+- On clicking the SUBMIT button, the application will display the weather for the next 6 days
 - The application must be responsive and mobile friendly
 
-> 💡 Not sure where to start? Split this features into multiple smaller todos (in your code, sketch, ...)
 
-#### 🌼 Nice to haves (in no specific order)
 
-- Display a line graph of temperature over time using a library such as [Chart.js](https://www.chartjs.org)
-- Remember the user choice on subsequent visits
-- Allow the user to compare the weather in two cities
-- Use the API of https://unsplash.com/ to show a photo of the city they entered in the form.
+### Tools Used 
 
-### Instructions
+- Created an account on [OpenWeather](https://home.openweathermap.org/.), and generated a key
+- Got the weather data using the native JS [`fetch()`](https://devdocs.io/dom/fetch_api/using_fetch)
 
-- Create an account on [OpenWeather](https://home.openweathermap.org/.), and generate a key
-- Get the weather data using the native JS [`fetch()`](https://devdocs.io/dom/fetch_api/using_fetch) method (if you like, you can also check out [axios](https://github.com/axios/axios))
 
-## _“When the ass begins to bray, surely rain will come that day.”_ (Good luck!)
-
-![](./american-storm.gif)
