@@ -167,11 +167,12 @@ p {
 .upcomingDays {
     width: 12%;
     height: 300px;
-    padding: 25px;
+    padding: 10px;
     display: flex;
-    justify-content: end;
+    /* justify-content: end; */
     background-color: #2f4f9052;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     border-radius: 15px;
 
